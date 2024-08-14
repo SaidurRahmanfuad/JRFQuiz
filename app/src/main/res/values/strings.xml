@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Supper Quiz</string>
+    <string name="high_score">High Score</string>
+    <string name="tag_tosay_s_quiz_on">Tosay’s Quiz on</string>
+    <string name="tag_play_quiz_now">Play Quiz Now</string>
+    <string name="tag_the_quiz_ends_in">The Quiz ends in</string>
+    <string name="tag_general_knowledge">General Knowledge</string>
+    <string name="tag_pop_exit">Are you sure you want to exit your quiz?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="question">Question</string>
+    <string name="next">Next</string>
+</resources>

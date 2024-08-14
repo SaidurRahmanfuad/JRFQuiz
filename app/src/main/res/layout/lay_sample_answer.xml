@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_answer_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_sample_ans"
+            android:padding="10dp"
+            android:onClick="onClick"
+            android:fontFamily="@font/lato_bold"
+            android:textColor="@color/color_black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv_answer_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_sample_ans"
+            android:layout_marginTop="12dp"
+            android:padding="10dp"
+            android:onClick="onClick"
+            android:fontFamily="@font/lato_bold"
+            android:textColor="@color/color_black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_answer_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_sample_ans"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/lato_bold"
+            android:padding="10dp"
+            android:onClick="onClick"
+            android:textColor="@color/color_black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_answer_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_sample_ans"
+            android:padding="10dp"
+            android:onClick="onClick"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/lato_bold"
+            android:textColor="@color/color_black"
+            android:textSize="18sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

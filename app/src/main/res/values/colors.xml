@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_button">#BE1E2D</color>
+    <color name="color_gredient">#E66514</color>
+    <color name="color_box">#CCCCE5</color>
+    <color name="color_button_light">#FBF3F4</color>
+    <color name="color_ash">#B7BBC1</color>
+    <color name="color_green">#05CA56</color>
+    <color name="color_green_light">#CBFCCB</color>
+    <color name="color_red">#FF0000</color>
+</resources>
