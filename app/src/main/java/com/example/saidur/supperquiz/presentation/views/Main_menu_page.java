@@ -67,7 +67,7 @@ public class Main_menu_page extends AppCompatActivity implements View.OnClickLis
     //Quiz end countdown
     private void ShowCountDown() {
         formatter.setLenient(false);
-        String endTime = "16.08.2024, 23:59:59";
+        String endTime = "16.08.2024, 11:59:59";
         Date endDate;
         try {
             endDate = formatter.parse(endTime);
